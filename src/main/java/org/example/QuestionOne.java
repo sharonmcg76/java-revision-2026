@@ -1,7 +1,7 @@
 package org.example;
 
 public class QuestionOne {
-    public static int main(int x, int y) {
+    public static int weird(int x, int y) {
         int r = 0;
         while (x > 0) {
             x-=-y; // x is declared positive and decrementing.  to keep the loop going, y must be negative
