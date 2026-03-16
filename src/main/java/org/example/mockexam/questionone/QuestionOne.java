@@ -1,4 +1,4 @@
-package org.example;
+package org.example.mockexam.questionone;
 
 public class QuestionOne {
     public static int weird(int x, int y) {
