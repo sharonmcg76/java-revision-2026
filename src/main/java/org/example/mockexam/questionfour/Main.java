@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
-        Comparator<String> cmp =
+        StringComparator cmp =
         (string1, string2) -> {
             if (Objects.equals(string1, string2)) {
                 return 0;

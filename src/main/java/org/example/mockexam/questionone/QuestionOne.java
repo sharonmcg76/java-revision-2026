@@ -4,7 +4,7 @@ public class QuestionOne {
     public static int weird(int x, int y) {
         int r = 0;
         while (x > 0) {
-            x-=-y; // x is declared positive and decrementing.  to keep the loop going, y must be negative
+            x-=y; // x is declared positive and decrementing.  to keep the loop going, y must be negative
             r++;
         }
         return r;
@@ -12,4 +12,4 @@ public class QuestionOne {
 }
 
 
-//pair of numbers a is positive integer, b is negative integer
+//pair of numbers, where a is  an is positive integer, b is a negative integer.
