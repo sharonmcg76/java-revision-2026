@@ -7,9 +7,18 @@ public class Cat extends Animal {
     private String gender;
     private String breed;
 
+    public Cat (String breed, String name, String color, String gender) {
+        super(breed, name, color, gender);
+        this.breed = breed;
+        this.name = name;
+        this.color = color;
+        this.gender = gender;
+    }
+
+
 
     public void makeSound() {
-        System.out.println("Meow");
+        System.out.println("Cat goes Meow");
     }
 
     @Override

@@ -16,7 +16,6 @@ public class Animal implements AnimalFunctionality{
     public String getBreed() {
         return breed;
     }
-
     public String getName() {
         return name;
     }
