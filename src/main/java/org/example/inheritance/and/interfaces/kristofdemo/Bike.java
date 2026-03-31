@@ -1,4 +1,4 @@
-package org.example.inheritance.and.interfaces;
+package org.example.inheritance.and.interfaces.kristofdemo;
 
 public class Bike extends Vehicle {
     public Bike(String make, String model, int year) {
