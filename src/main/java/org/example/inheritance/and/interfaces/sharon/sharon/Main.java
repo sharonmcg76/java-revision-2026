@@ -1,4 +1,4 @@
-package org.example.inheritance.and.interfaces.kristofdemo.sharon;
+package org.example.inheritance.and.interfaces.sharon.sharon;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,3 +17,4 @@ public class Main {
     }
 
 }
+ 

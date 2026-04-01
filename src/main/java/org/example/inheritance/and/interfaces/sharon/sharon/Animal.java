@@ -1,4 +1,4 @@
-package org.example.inheritance.and.interfaces.kristofdemo.sharon;
+package org.example.inheritance.and.interfaces.sharon.sharon;
 
 public class Animal implements AnimalFunctionality{
     private String breed;

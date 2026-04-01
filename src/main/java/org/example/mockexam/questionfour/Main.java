@@ -32,3 +32,34 @@ public class Main {
         System.out.println(cmp.compare(null, "") < 0);
     }
 }
+//
+//Question 4
+//
+//        (o1, o2) -> {
+//        if (o1 == null) {
+//        if (o2 == null) {
+//        return 0;
+//        }
+//        return -1;
+//        }
+//        if (o2 == null) {
+//        return 1;
+//        }
+//        if (o1.length() != o2.length()) {
+//        return o1.length() - o2.length();
+//    }
+//            return o1.compareTo(o2);
+//}
+
+// Notes:
+//
+// - it it up to you whether you add type information for the parameters of
+//   the lambda expression
+//
+// - null inputs must be handled first in the code: instance methods work only
+//   if they are called on an instance (i.e., something that is not null)
+//
+// - the code for "o1 or o2 is null" and the code for "neither o1 nor o2 is null"
+//   can be developed independently and then plugged together; so you may well
+//   write the second part first and only then think about null
+
