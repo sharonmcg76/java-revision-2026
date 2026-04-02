@@ -1,4 +1,4 @@
-package org.example.inheritance.and.interfaces;
+package org.example.inheritance.and.interfaces.kristofdemo;
 
 public class Car extends Vehicle {
     private int numberOfDoors;
