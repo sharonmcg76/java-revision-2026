@@ -20,4 +20,10 @@ public class QuestionOne {
 
 //        simplest answer is (1, 0)
 
+//Question 1                    (5 marks)
+//Criteria	                    Marks	    Notes
+//Valid pair (a, b)	            1	        Example: (1, 0)
+//a > 0	                        2	        Loop must start
+//b <= 0 or correct reasoning	2	        Ensures loop does not terminate
+
 

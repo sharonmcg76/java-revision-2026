@@ -63,3 +63,11 @@ public class Main {
 //   can be developed independently and then plugged together; so you may well
 //   write the second part first and only then think about null
 
+//Question 4 (20 marks)
+//Criteria	                Marks
+//Lambda structure	        3
+//Null handling	            5
+//Both null returns 0	    2
+//Null ordering	            2
+//Length comparison	        4
+//Alphabetical tie-break	4

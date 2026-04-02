@@ -29,3 +29,15 @@ public class QuestionFive {
 // - The references left and right may or may not be null, so we must check
 //   that explicitly before we call a method on them and make the method call
 //   only if the reference is not null
+
+
+//Question 5                        (25 marks)
+//Criteria	                        Marks
+//Correct method header	            2
+//Initializes result	            2
+//Checks current node	            4
+//Increments result	                2
+//Left recursion with null check	5
+//Right recursion with null check	5
+//Accumulates results	            3
+//Returns result	                2
