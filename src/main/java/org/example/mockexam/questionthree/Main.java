@@ -1,6 +1,8 @@
 package org.example.mockexam.questionthree;
 
-public class QuestionThree {
+public class Main {
+    public static void main(String[] args) {}
+}
 
 
 //    Question 3
