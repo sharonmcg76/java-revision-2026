@@ -6,11 +6,11 @@ public class Main {
         System.out.println(dog);
         dog.makeSound();
 
-        Cat cat = new Cat("Persian", "Tom", "White", "Male");
+        Cat cat = new Cat("Persian", "Tom", "White", "Male", 9);
         System.out.println(cat);
         cat.makeSound();
 
-        Cat cat2 = new Cat("Siamese", "Lily", "Tan", "Female");
+        Cat cat2 = new Cat("Siamese", "Lily", "Tan", "Female", 8);
         System.out.println(cat2);
         cat2.makeSound();
 
