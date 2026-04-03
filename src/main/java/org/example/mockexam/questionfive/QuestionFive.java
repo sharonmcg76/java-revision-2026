@@ -1,6 +1,19 @@
 package org.example.mockexam.questionfive;
 
 public class QuestionFive {
+
+    public static void main(String[] args) {
+        Node t = new Node(20,
+                    new Node(21,
+                        new Node(22),
+                        new Node(21)),
+                    new Node(23,
+                        null,
+                        new Node(21)));
+
+        System.out.println(t.countNodesWith(21));
+    }
+
 }
 
 //
