@@ -1,4 +1,4 @@
-package org.example.cycles;
+package org.example.warm.up.sept.cycles;
 
 
 //print numbers one to ten using for loop
@@ -9,4 +9,9 @@ public class Problem1 {
         }
     }
 }
+
+
+
+
+
 

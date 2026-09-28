@@ -1,15 +1,18 @@
-package org.example.cycles;
+package org.example.warm.up.sept.cycles;
 
 import java.util.Scanner;
 
-public class Problem5 {
+public class Problem4 {
     static void main() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a positive number");
         int input = scan.nextInt();
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(input + " * " + i + " = " + (input * i));
+        int factorial = 1;
+
+        for (int i = 1; i <= input; i++){
+            factorial = factorial * i;
         }
+        System.out.println(factorial);
     }
 }

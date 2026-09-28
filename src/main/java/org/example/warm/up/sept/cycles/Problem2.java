@@ -1,4 +1,4 @@
-package org.example.cycles;
+package org.example.warm.up.sept.cycles;
 
 // print even numbers from 1 to 50 using for loop
 
