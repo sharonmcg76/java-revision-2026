@@ -14,6 +14,6 @@ public class Film extends Media {
     }
         @Override
         public String toString (){
-            return super.toString()+ ", " + "Director: " + director + "," + "Premiered: " + premierDate + ","+ "Run Time: " + runTimeMins +"mins";
+            return super.toString()+ ", " + "Director: " + director + ", " + "Premiered: " + premierDate + ", "+ "Run Time: " + runTimeMins +" mins";
         }
     }
