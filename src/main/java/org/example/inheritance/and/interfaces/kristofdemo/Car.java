@@ -4,8 +4,8 @@ public class Car extends Vehicle {
     private int numberOfDoors;
 
     public Car(String make, String model, int year, int numberOfDoors) {
-        super(make, model, year); // Call the constructor of the superclass (Vehicle) to initialize the common attributes
-        this.numberOfDoors = numberOfDoors; // Initialize the specific attribute of Car
+        super(make, model, year); // Call the constructor of the superclass (Vehicle) to create object with the common attributes
+        this.numberOfDoors = numberOfDoors; // Creating an instance, the specific values of Car attributes
     }
 
     @Override
